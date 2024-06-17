@@ -14,9 +14,23 @@
 
 এন্ডপয়েন্ট: `https://api.shothik.ai/api/fix-english-grammer` ✍️
 
+`data Json {"data":"Give me pain I will give you money someone said this word one of the legends"}`
+
+`response {
+  "content": "\"Someone, one of the legends, said, \u0027Give me pain, and I will give you money.\u0027\"\n"
+}`
+
 ### বাংলা গ্রামার ঠিক করার এপিআই
 
 এন্ডপয়েন্ট: `https://api.shothik.ai/api2/fix-bangla-grammer` ✍️
+
+`data Json {"data":"ভাবছি আপনাদের জন্য মোবাইল ব্যাংকিং এর কোন ফিশিং পেজ বানালে ভালো হয় বিকাশ তো বানালাম এখন কোনটা বানালে ভালো হয়? \n\nনিচে কমেন্ট করে বলতে পারেন আপনার মতামত।","mode":"standerd","synonym":"Basic","conversationId":1718380142405}`
+
+`response {
+  "success": true,
+  "message": "Event triggered successfully!",
+  "content": "ভাবছি আপনাদের জন্য মোবাইল ব্যাংকিং এর কোন ফিশিং পেজ বানালে ভালো হয়। বিকাশ তো বানালাম, এখন কোনটা বানালে ভালো হয়? \n\nনিচে কমেন্ট করে বলতে পারেন আপনার মতামত। \n"
+}`
 
 ## এপিআই ব্যবহারের বিস্তারিত
 
